@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 14px;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.wrapper {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.wrapper .box {
+    width: 100%;
+}
+
+.wrapper .box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper .box li {
+    width: 220px;
+    float: left;
+}
+
+.wrapper .box li .item {
+    width: 200px;
+    margin: 0 auto 5px;
+    border-radius: 7px;
+    overflow: hidden;
+    border: 1px solid darkseagreen;
+}
+
+.wrapper .box li .item img {
+    width: 100%;
+}
+
+.wrapper .box li .item p {
+    padding: 5px;
+    text-indent: 2em;
+}
